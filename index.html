@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Veeresh</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Veeresh</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="https://res.cloudinary.com/ddkdywsk0/image/upload/v1685874129/Luxurious_Banner_Background_Design_Backgrounds___AI_Free_Download_-_Pikbest-Recovered_tk5mia.png"
+          alt="Veeresh profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title" id="title-style">Veeresh</h1>
+        <p class="section__text__p2">Full Stock Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://in.docworkspace.com/d/sIFXU5dPLAffp8aMG')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://res.cloudinary.com/ddkdywsk0/image/upload/v1685958357/png-transparent-linkedin-computer-icons-blog-logo-watercolor-butterfly-angle-text-rectangle-removebg-preview_gziici.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685876966/png-transparent-youtube-play-button-computer-icons-youtube-youtube-logo-angle-rectangle-logo-removebg-preview_z5ziv2.png"
+            alt="My youtube profile"
+            class="icon"
+            onclick="location.href='https://youtube.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685881421/20230604_175113_sgpdh0.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685881421/20230604_175113_sgpdh0.jpg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>8+ Months <br />Nxt Wave 4.O Student</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685880976/education_df4q1n.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I started learning because I have a strong passion for full stock
+              developer and wanted to inspire others to start full stock
+              developer, too. I decided to take matters into my own hands and
+              start my own . Since I started 10/09/2022 to learning. it’s
+              quickly become one of the most popular marketing platforms
+              online<snap class="nxt">[NXT WAVE]</snap>.I’ve been here at full
+              stock developer my goal is to help you achieve your full stock
+              developer dreams.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685896007/HTML5_logo_and_wordmark.svg-removebg-preview_bva91c.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685896209/CSS3_logo_and_wordmark.svg-removebg-preview_siiatc.png "
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685896697/png-transparent-bootstrap-plain-wordmark-logo-icon-removebg-preview_hh3chd.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685896417/JavaScript-removebg-preview_gcpuik.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <!-- <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article> -->
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685896966/Python-logo-notext.svg-removebg-preview_v8ghjn.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685897061/download__2_-removebg-preview_yc7fd5.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685897292/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview_pojqbt.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685897384/01e500fca29c045d432b64f285f9c229-removebg-preview_mcnsjd.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="car-section" id="projects">
+      <p class="projects">Projects</p>
+      <div class="car-container" id="cars1">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://veereshwikipe.ccbp.tech'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="https://res.cloudinary.com/ddkdywsk0/image/upload/v1683546143/564429-removebg-preview_vgwgeu.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://veereshcalcu.ccbp.tech/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="https://res.cloudinary.com/ddkdywsk0/image/upload/v1683546675/download_1_mgffnk.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://veereshtodoa.ccbp.tech/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685688039/unnamed-removebg-preview_cwitzc.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Four</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://veereshguessing.ccbp.tech/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685902835/images__1_-removebg-preview_k6ybta.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Fifth</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://veereshfoodmunh.ccbp.tech/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://res.cloudinary.com/dqhk94co9/image/upload/v1685958104/mail-213-removebg-preview_b4mg9l.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:Veereshbaitigeri143@gmail.com"
+              >Veereshbaitigeri143@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://res.cloudinary.com/ddkdywsk0/image/upload/v1685958357/png-transparent-linkedin-computer-icons-blog-logo-watercolor-butterfly-angle-text-rectangle-removebg-preview_gziici.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Veeresh. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- <div class="content">
+        <div class="text" id="h1">Veeresh Event Registration Form</div>
+        <form action="#">
+            <div class="field input1">
+                <input type="text" id="name" required placeholder="Name">
+            </div>
+            <div class="field input1">
+                <input type="text" id="college" required placeholder="College name">
+            </div>
+                <div class="field input1">
+             <input type="text" id="name" required placeholder="Name">
+         </div> 
+            <div class="field input1">
+                <input type="text" id="course" required placeholder="Current Course">
+            </div>
+            <div class="field input1">
+                <select id="gender" class="sele" required placeholder="Gender">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="field input1">
+                <input type="email" id="email" class="sele" required placeholder="Email">
+            </div>
+            <div class="field input1">
+                <input type="email" id="email" required placeholder="Phone No">
+            </div>
+            <div class="field input1">
+                <input type="text" id="course" required placeholder="Current Course">
+            </div>
+              <div class="forgot-pass"><a href="#">Forgot Password?</a></div>
+            <button>Register</button>
+            <div class="signup">Not a member?
+                <a href="#">signup now</a>
+            </div>
+        </form>
+    </div> -->
+  </body>
+</html>
+
+<!--  -->
